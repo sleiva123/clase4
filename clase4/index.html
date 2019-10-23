@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="https://formspree.io/sergio162002@gmail.com" method="post">
+        <fieldset >
+            <legend>Datos</legend>
+            <label>Ingrese su nombre<input type="text" name="name" id="name" class="inputLinea"></label>
+            <br>
+            <label>Ingrese su clave<input type="password" name="clave" id="clave" class="inputLinea"></label>        
+        </fieldset>
+        
+        <hr>
+        <label>Ingrese su sueldo<input type="number" name="sueldo" id="sueldo" class="inputLinea"></label>
+        <input type="file" name="file">
+        <hr>
+        <label>Desea enviar?<input type="checkbox" name="checkbox" id="checkbox"></label>
+        <br>
+        <input type="radio" name="radio" id"radio1" value="1">
+        <input type="radio" name="radio" id"radio2" value="2">
+        <input type="radio" name="radio" id"radio3" value="3">
+        <hr>
+        <label>Elija un color 
+            <select name="combo">
+                    <option value="rojo" selected>rojo</option>
+                    <option value="azul">azul</option>
+                    <option value="verde">verde</option>
+            </select>
+        </label>
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+</body>
+</html>
